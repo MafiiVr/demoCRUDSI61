@@ -1,0 +1,27 @@
+<div>
+    
+    <div><h1>
+        Registro
+    </h1></div>
+    <div>
+       
+        <form [formGroup]="form" (submit)="aceptar()">
+            <mat-form-field class="example-full-width">
+                <mat-label>Ambiente</mat-label>
+                <input matInput placeholder="Ejem. sala" formControlName="hambiente" >
+              </mat-form-field>
+              <div></div>
+              <mat-form-field>
+                <mat-label>Ubicacion</mat-label>
+                <mat-select formControlName="hubicacion">
+                  @for (food of listaUbicaciones; track food) {
+                    <mat-option [value]="food.value">{{food.viewValue}}</mat-option>
+                  }
+                </mat-select>
+              </mat-form-field>
+              <div>
+                <button mat-raised-button>Registrar</button>
+              </div>
+        </form>
+    </div>
+</div>

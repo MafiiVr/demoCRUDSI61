@@ -1,0 +1,64 @@
+h1{
+    color:cadetblue;
+}
+/* Estilos generales para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Estilos para la elevación de material (sombras) */
+  .mat-elevation-z8 {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos para hover en las filas */
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Encabezado de la tabla */
+  th.mat-header-cell {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #616161;
+  }
+  
+  /* Celdas de la tabla */
+  td.mat-cell {
+    font-size: 13px;
+    color: #424242;
+  }
+  
+  /* Estilo para la primera columna */
+  .ng-container[matColumnDef="c1"] td {
+    font-weight: bold;
+  }
+  
+  /* Estilo para la segunda columna */
+  .ng-container[matColumnDef="c2"] td {
+    color: #757575;
+  }
+  
+  /* Estilo para la tercera columna */
+  .ng-container[matColumnDef="c3"] td {
+    color: #424242;
+  }
+  
+

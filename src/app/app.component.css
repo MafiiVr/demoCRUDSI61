@@ -1,0 +1,15 @@
+
+.custom-toolbar {
+    background-color:white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.custom-toolbar mat-icon {
+    margin-right: 16px;
+}
+
+.custom-toolbar button {
+    color: black;
+    margin-left: 16px;
+}

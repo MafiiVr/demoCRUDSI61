@@ -1,0 +1,71 @@
+/* General styling for the form container */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color:white;
+    background-color: #6200ea;
+    margin-bottom: 20px;
+    
+}
+mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+mat-label {
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+input[matInput] {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+mat-select {
+    font-size: 1rem;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #6200ea;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+button:hover {
+    background-color:rgb(180, 153, 206);
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
